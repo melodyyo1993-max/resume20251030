@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>履歷 — 尤詩盈 AU111042098</title>
+  <style>
+    :root{
+      --bg:#f7f8fb; --card:#ffffff; --muted:#6b7280; --accent:#2563eb;
+    }
+    *{box-sizing:border-box}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Arial; background:linear-gradient(180deg,#eef2ff 0%,var(--bg) 100%); margin:0; padding:24px; color:#111827}
+    .wrap{max-width:900px;margin:24px auto}
+    .card{background:var(--card);border-radius:12px;box-shadow:0 6px 24px rgba(16,24,40,0.08);overflow:hidden}
+    .header{padding:28px;display:flex;align-items:center;gap:20px}
+    .photo-placeholder{width:100px;height:100px;border-radius:50%;background:#e5e7eb;display:flex;align-items:center;justify-content:center;color:#9ca3af;font-size:14px;box-shadow:0 4px 12px rgba(0,0,0,0.1)}
+    h1{margin:0;font-size:22px}
+    .meta{color:var(--muted);margin-top:6px;font-size:14px}
+    .btns{display:flex;gap:10px;margin-top:12px}
+    button{border:0;padding:10px 14px;border-radius:10px;font-weight:600;cursor:pointer}
+    .btn-primary{background:var(--accent);color:white}
+    .btn-ghost{background:transparent;border:1px solid rgba(15,23,42,0.06)}
+    .grid{display:grid;grid-template-columns:1fr 320px}
+    .section{padding:20px 28px;border-top:1px solid rgba(15,23,42,0.03)}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:#f3f4f6;padding:8px 10px;border-radius:8px;font-size:13px}
+    footer{padding:14px 20px;text-align:center;color:var(--muted);font-size:13px}
+    @media (max-width:840px){.grid{grid-template-columns:1fr;}.header{flex-direction:column;align-items:flex-start}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="header">
+        <div class="photo-placeholder">照片</div>
+        <div>
+          <h1 id="name">尤詩盈</h1>
+          <div class="meta" id="meta">學號: AU111042098 • 亞洲大學 社工系</div>
+          <div class="meta">電話: <span id="phone">0966-555-999</span></div>
+          <div class="btns">
+            <button class="btn-primary" onclick="window.print()">列印 / 儲存為 PDF</button>
+            <button class="btn-ghost" onclick="downloadHTML()">下載 HTML 檔</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="left">
+          <div class="section">
+            <h3>個人簡介</h3>
+            <p>我是一位就讀於亞洲大學社會工作學系的學生，對於助人專業懷抱熱忱。從進入大學以來，我積極參與志願服務與實務課程，學習如何以同理、尊重與專業陪伴不同需求的族群。我相信每個人都有被理解與被支持的權利，而社工的角色就是成為那道讓人看見希望的光。未來，我希望能投入兒少與家庭領域，運用自己的溫度與力量，讓更多人感受到被理解與接納的力量。</p>
+          </div>
+
+          <div class="section">
+            <h3>經歷</h3>
+            <ul>
+              <li><strong>值館志工 — 兒福聯盟少年+</strong>（大學期間）<br/>協助場館活動、陪伴與課輔。</li>
+              <li><strong>教育部青年職場體驗計畫 — 課輔助理</strong><br/>參與偏鄉學童課業輔導與補救教學。</li>
+            </ul>
+          </div>
+
+          <div class="section">
+            <h3>學歷</h3>
+            <ul>
+              <li>亞洲大學 社會工作學系（在學）</li>
+            </ul>
+          </div>
+
+          <div class="section">
+            <h3>技能</h3>
+            <div class="skills">
+              <div class="skill">團體活動設計</div>
+              <div class="skill">早療基礎知識</div>
+              <div class="skill">個案記錄與報告</div>
+              <div class="skill">簡報與溝通</div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>興趣</h3>
+            <p>我喜歡在假日時走進展覽，欣賞藝術作品所傳達的情感與故事；也喜歡沈浸於音樂劇與現場表演中，感受舞台上的生命力。音樂、燈光與劇情的融合，讓我在每次觀賞中都能獲得新的啟發與感動。平時我也會聽音樂、寫筆記或散步，讓自己在生活中保持溫柔與覺察，繼續發現世界的美好與人性的細膩。</p>
+          </div>
+        </div>
+
+        <aside style="border-left:1px solid rgba(15,23,42,0.03)">
+          <div class="section">
+            <h3>聯絡方式</h3>
+            <ul style="list-style:none;padding:0;margin:6px 0 0 0">
+              <li>手機: 0966-555-999</li>
+            </ul>
+          </div>
+
+          <div class="section">
+            <h3>自我評量</h3>
+            <p style="font-size:14px;color:var(--muted)">負責、具同理心、擅長團隊協作與耐心陪伴兒少。</p>
+          </div>
+
+          <div class="section">
+            <h3>社團 / 證照</h3>
+            <ul>
+              <li>新移民志工社 成員</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+
+      <footer>最後更新：<span id="updated"></span></footer>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('updated').textContent = new Date().toLocaleDateString('zh-TW');
+    function downloadHTML(){
+      const blob = new Blob([document.documentElement.outerHTML], {type: 'text/html'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'resume_AU111042098.html';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    }
+  </script>
+</body>
+</html>
